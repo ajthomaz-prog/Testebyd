@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BYD Briefing</string>
+
+    <string name="home_title">Briefing Diário</string>
+    <string name="home_empty">Nenhum briefing ainda. Toque em \"Gerar agora\" para criar o primeiro.</string>
+    <string name="home_generate_now">Gerar agora</string>
+    <string name="home_generating">Gerando briefing…</string>
+    <string name="home_settings">Configurações</string>
+
+    <string name="settings_title">Configurações</string>
+    <string name="settings_anthropic_key">Chave Anthropic (Claude)</string>
+    <string name="settings_google_key">Chave Google Cloud TTS</string>
+    <string name="settings_voice">Voz (pt-BR)</string>
+    <string name="settings_schedule">Horário diário</string>
+    <string name="settings_test">Testar conexão</string>
+    <string name="settings_save">Salvar</string>
+    <string name="settings_help_schedule">Se o carro estiver desligado neste horário, o briefing é gerado assim que o multimídia acordar.</string>
+    <string name="settings_prompt">Prompt do briefing</string>
+    <string name="settings_reset_prompt">Restaurar prompt padrão</string>
+
+    <string name="player_play">Reproduzir</string>
+    <string name="player_pause">Pausar</string>
+    <string name="player_skip_back">Voltar 15s</string>
+    <string name="player_skip_forward">Avançar 15s</string>
+
+    <string name="notif_channel_ready">Briefings prontos</string>
+    <string name="notif_channel_progress">Progresso da geração</string>
+    <string name="notif_ready_title">Briefing pronto</string>
+    <string name="notif_ready_text">Toque para ouvir o resumo de hoje.</string>
+    <string name="notif_progress_title">Gerando briefing…</string>
+
+    <string name="error_missing_keys">Configure as chaves da API primeiro.</string>
+    <string name="error_network">Falha de rede ao gerar o briefing.</string>
+    <string name="error_anthropic">Falha na API do Claude.</string>
+    <string name="error_tts">Falha no Google Cloud TTS.</string>
+    <string name="test_ok">Conexão OK com os dois serviços.</string>
+</resources>
