@@ -24,7 +24,7 @@ class AnthropicClient(private val http: OkHttpClient) {
         }
 
         val body = AnthropicRequest(
-            model = "claude-sonnet-4-5",
+            model = "claude-sonnet-4-6",
             maxTokens = 4096,
             messages = listOf(AnthropicRequest.Message("user", prompt)),
             tools = listOf(webSearchTool),

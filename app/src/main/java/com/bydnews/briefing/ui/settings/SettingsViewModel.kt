@@ -83,7 +83,7 @@ class SettingsViewModel(app: Application) : AndroidViewModel(app) {
 
     private suspend fun pingAnthropic(key: String) = withContext(Dispatchers.IO) {
         val body = """
-            {"model":"claude-sonnet-4-5","max_tokens":8,"messages":[{"role":"user","content":"ping"}]}
+            {"model":"claude-haiku-4-5","max_tokens":8,"messages":[{"role":"user","content":"ping"}]}
         """.trimIndent()
         val req = Request.Builder()
             .url("https://api.anthropic.com/v1/messages")

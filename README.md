@@ -8,7 +8,9 @@ Android app para a multimídia DiLink do **BYD Song Premium**. Todo dia, no hor�
 
 ## Como construir o APK
 
-Pré-requisitos: JDK 17, Android SDK (platform 34, build-tools 34.0.0).
+**Mais fácil — GitHub Actions:** todo push para o branch dispara o workflow `.github/workflows/build.yml` que builda em runner Ubuntu com Android SDK pronto e publica o APK como artefato. Vá em **Actions → Build APK → último run → Artifacts** e baixe `byd-briefing-debug` (assinado com chave debug, suficiente para sideload de teste) ou `byd-briefing-release`.
+
+**Localmente** — pré-requisitos: JDK 17, Android SDK (platform 34, build-tools 34.0.0).
 
 ```bash
 # crie o keystore uma única vez
